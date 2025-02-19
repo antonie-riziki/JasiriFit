@@ -153,8 +153,8 @@ if prompt := st.chat_input("How may I help?"):
 
 #     speech = st.button('Talking Buddy')
 
-if speech:
-    audio = pt.init()
-    audio.say(get_chat_response(human))
-    audio.runAndWait()
+# if speech:
+#     audio = pt.init()
+#     audio.say(get_chat_response(human))
+#     audio.runAndWait()
 
