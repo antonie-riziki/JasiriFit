@@ -110,7 +110,7 @@ def get_chat_response(prompt):
         )
     )
 
-        st.write(response.text)
+        return response.text
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
